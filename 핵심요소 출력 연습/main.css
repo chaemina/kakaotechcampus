@@ -1,0 +1,15 @@
+
+span{
+  color: blue;
+}
+
+div{
+  color: blueviolet;
+  background-color: black;
+}
+
+
+td{
+  border:  1px solid red;
+  padding: 10px;
+}

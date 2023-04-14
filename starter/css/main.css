@@ -1,0 +1,12 @@
+
+/*div {
+  color:red;
+  font-size: 200px;
+}*/
+/*div{
+  height: 50px;
+  width: 50px;
+  background: url("../images/favicon.ico"); main.css는 css 폴더 안에 있기 때문에 이미지에 접근하려면 상대경로- 상위 로 접근해야함
+  background: url("/images/favicon.ico"); 절대경로
+}*/
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- 브라우저 기본 css 리셋  -->
+  <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="./main.css">
+  <style>
+    body{
+      font-size: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div1>
+    <!-- h -->
+    <h1>오늘의 날씨</h1>
+    <!-- img -->
+    <img src="./태양.jpg" alt="맑음">
+    <!-- ul -->
+    <ul>
+      <li>사과</li>
+      <li>딸기</li>
+      <li>수박</li>
+    </ul>
+    <!-- a -->
+    <a href="https://naver.com" target="_blank">NAVER</a>
+    <a href="https://google.com">GOOGLE</a>
+    <!-- p, span , div-->
+    <p>
+      동해물과 <span>백두산이</span> <br>
+      마르고 닳도록 <div>하느님이</div> 보우하사  <!--div는 최대한 한줄만 사용하려함, 그래서 줄바꿈 된다-->
+    </p>
+    
+    <!-- input text -->
+    <input type="text" value="mina" placeholder="이름을 입력하세요"/>
+    <!--checkbox-->
+    <label>
+      <input type ="checkbox"checked/> APPLE <!--label 안에 있으면 텍스트를 클릭해도 동작함-->
+    </label>
+    <label>
+      <input type ="checkbox"/> BANANA <!--다른 input과 관여 X-->
+    </label>
+    <br>
+    <br>
+    <br>
+    <!--radio-->
+    <label>
+    <input type ="radio" name="fruits"/> APPLE <!--radio는 name으로 묶여진 그룹 택 1, 만약 혼자면 체크 해제 되지 않음 -->
+    </label>
+    <label>
+      <input type ="radio" name="fruits"/> BANANA
+      </label>
+      <br>
+      <br>
+      <br>
+      <!--테이블-->
+      <table>
+        <tr>
+          <td>A</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>C</td>
+          <td>D</td>
+        </tr>
+      </table>
+  </div1>
+</body>
+</html>
