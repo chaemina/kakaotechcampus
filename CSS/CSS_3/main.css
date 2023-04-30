@@ -1,0 +1,14 @@
+.parent{
+  height: 300px;
+  width: 200px;
+  background-color: blueviolet;
+}
+
+.child{
+  height: 100px;
+  width: inherit;   /* 강제 상속 */
+  background-color: inherit;
+  position: fixed;
+  top: 100px;
+  right:10px
+}

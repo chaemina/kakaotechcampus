@@ -1,0 +1,28 @@
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+.box::after{
+  content: "after!! ";
+}
+
+.box::before{
+  content: "";
+  display: block;
+  /* 가상요소는 원래 인라인 요소 ->가로세로 너비 지정해주려면 display로 block요소 변환해야함  */
+  width: 30px;
+  height: 30px;
+  background-color: royalblue;
+}
+
+[type="text"]{
+  background-color:red;
+}
+[type="password"]{
+  background-color:orange;
+}
+[data-fruit-name]{
+  color:blueviolet
+}
