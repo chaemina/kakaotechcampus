@@ -1,0 +1,30 @@
+body{
+  height: 3000px;
+}
+.container{
+  width: 300px;
+  background-color: royalblue;
+  position: relative; 
+  /*relative값 지정해주지 않으면 뷰 포트 기준으로 배치됨*/
+}
+.container .item{ /*item 모두에 부여하는 속성 */
+  border: 4px dashed red;
+  background-color: orange;
+}
+
+.container .item:nth-child(1) {
+  width: 100px;
+  height: 100px;
+}
+.container .item:nth-child(2){
+  width: 140px;
+  height: 70px;
+  position: absolute;
+  /* position: fixed;  뷰포트 기준 배치*/
+  bottom: 30px;
+  right: 60px;
+}
+.container .item:nth-child(3){
+  width: 70px;
+  height: 120px;
+}

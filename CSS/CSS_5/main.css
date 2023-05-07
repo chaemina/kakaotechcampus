@@ -1,0 +1,30 @@
+a{
+  display: block;  /*a태그는 원래 인라인요소*/
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+  font-size: 22px;
+  /* a태그의 기본설정들을 변경해줌 */
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 100px;
+} 
+
+p{
+  font-size: 24px;
+  text-indent: 30px;
+}
+body{
+  height: 3000px;
+}
+
+div{
+  /* width: 200px; */
+  height: 200px;
+  background-color: orange;
+  background-image: url("https://tistory2.daumcdn.net/tistory/5941000/skin/images/favicon.ico");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
