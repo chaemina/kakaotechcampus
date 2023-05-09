@@ -2,6 +2,11 @@
 
 이 프로젝트는 kakaotechcampus 강의내용을 실습하기 위한 저장소 입니다. 
 
+## Language
+- Html
+- CSS
+- javascript
+
 ## features
 
 - 개인적으로 사용하며 저장을 위한 공간이지 공유를 위한 공간이 아닙니다. 
