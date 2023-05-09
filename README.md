@@ -2,7 +2,7 @@
 
 이 프로젝트는 kakaotechcampus 강의내용을 실습하기 위한 저장소 입니다. 
 
-## Language
+## Languages
 - Html
 - CSS
 - javascript
